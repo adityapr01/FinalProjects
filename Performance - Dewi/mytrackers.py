@@ -111,8 +111,6 @@ class TestPIM(unittest.TestCase):
         time.sleep(3)
         driver.find_element(By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div[3]/div/div/div/form/div[1]/div/div[2]/input").send_keys(Keys.CONTROL + "a") #input log
         time.sleep(1)
-        driver.find_element(By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div[3]/div/div/div/form/div[1]/div/div[2]/input").send_keys(Keys.CONTROL + "a") #input log
-        time.sleep(1)
         driver.find_element(By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div[3]/div/div/div/form/div[1]/div/div[2]/input").send_keys(Keys.BACKSPACE) #input log
         time.sleep(1)
         driver.find_element(By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div[3]/div/div/div/form/div[1]/div/div[2]/input").send_keys("not good") #input log
